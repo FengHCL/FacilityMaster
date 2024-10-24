@@ -1,0 +1,76 @@
+{
+    "classname": "DateSelector",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ca9cf4f75c6542dbaef0efe7c3da402e",
+                    "paramList": [],
+                    "propertyKey": "show",
+                    "pw": {
+                        "displayName": "show",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "uf86d6fa3d0742c8a793c77800c6c9f1",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e9223e0f11cc47a2bcd79f00992571ff",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onSelect",
+                    "pw": {
+                        "displayName": "onSelect",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "uf86d6fa3d0742c8a793c77800c6c9f1",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "d3e66fd3dce44677897fc180a3d01e90",
+                    "originalPropertyKey": "widgetId",
+                    "propertyIndex": 1,
+                    "propertyKey": "widgetId",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "widgetId",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "uf86d6fa3d0742c8a793c77800c6c9f1",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.mario",
+    "version": "1.0.0"
+}

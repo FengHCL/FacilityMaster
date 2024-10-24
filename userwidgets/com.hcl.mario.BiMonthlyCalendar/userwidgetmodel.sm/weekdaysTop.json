@@ -1,0 +1,132 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s986e09c25984ca6880f0e672c244b15",
+    "_top_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "Weekdays": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "u585053945504c118190fd8c12206877",
+                "srcKUID": "ue778139b00149d591d2c788957021d2",
+                "wType": "FlexContainer"
+            },
+            "responsiveData": {
+                "b2": {},
+                "b3": {}
+            }
+        },
+        "lbl1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f9bf53732e504cef8f22380a51346a1a",
+                "srcKUID": "u3b330d96e1c4d3287f089b0195f7c26",
+                "wType": "Label"
+            }
+        },
+        "lbl2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ffadec486389431880909dbe5b109da5",
+                "srcKUID": "u5a8c3b5009341f0ada56cd6c0c8e80f",
+                "wType": "Label"
+            }
+        },
+        "lbl3": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gedd98621ce6468ebaea5d44b880feed",
+                "srcKUID": "ufa4b814168a4770bc2549a9f69cfdfb",
+                "wType": "Label"
+            }
+        },
+        "lbl4": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ga0512fb2e544e07acde79668fb4a528",
+                "srcKUID": "uf7cb641655844228d6c2286017b471b",
+                "wType": "Label"
+            }
+        },
+        "lbl5": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b756ef6e7cc543829dbb56083118d548",
+                "srcKUID": "udb7e5da961d48b4815fae6dce4cf8f3",
+                "wType": "Label"
+            }
+        },
+        "lbl6": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "icb95ae053374ee0b6a4e8786462f141",
+                "srcKUID": "ucdf136440a8461d98692558cdd9b4fa",
+                "wType": "Label"
+            }
+        },
+        "lbl7": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i7ffbac18f564956bf0743b591269185",
+                "srcKUID": "ub786578b0cc45348c123a7c03b4f23a",
+                "wType": "Label"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "weekdaysTop",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "u585053945504c118190fd8c12206877",
+    "layouttype": 3,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "topCalendar",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "ue778139b00149d591d2c788957021d2",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

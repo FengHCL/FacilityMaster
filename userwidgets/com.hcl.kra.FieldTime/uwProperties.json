@@ -1,0 +1,86 @@
+{
+    "classname": "FieldTime",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b33d3fd8b0ce4ebe922d531e5e404ae9",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onOpenSelector",
+                    "pw": {
+                        "displayName": "onOpenSelector",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c0a7254df1ed4909a264c4b32a74bdc5",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "gc99dd23f6bd4379abafb7761cd7875b",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "label",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "label",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblLabel",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "bf2e4caafcd549b19cef8e56223d583a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ab98417a0eeb47cca2c2dbb233d6a2fb",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "value",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "value",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblWidget",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e8b946b196a4487a831a8fa6e9805267"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.kra",
+    "version": "1.0.0"
+}

@@ -1,0 +1,211 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "desktop": {
+        "_data_": [
+            [
+                {
+                    "resourceName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "",
+                        "type": "Label"
+                    },
+                    "resourceType": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "",
+                        "type": "Label"
+                    }
+                },
+                [
+                    {
+                        "iconEdit": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "",
+                            "type": "Label"
+                        },
+                        "resourceName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "",
+                            "type": "Label"
+                        },
+                        "resourceType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "",
+                            "type": "Label"
+                        }
+                    }
+                ]
+            ]
+        ],
+        "rowTemplateId": "ff97a48030a8443d830be19e2053a170",
+        "rowtemplate": "flxResources",
+        "sectionHeaderTemplateId": "e0e4e20ae5144f5f9866ecf83d4d0a2e",
+        "sectionheadertemplate": "flxResourcesHeader",
+        "widgetdatamap": {
+            "flxResources": "flxResources",
+            "flxResourcesHeader": "flxResourcesHeader",
+            "flxSeparator": "flxSeparator",
+            "iconEdit": "iconEdit",
+            "resourceName": "resourceName",
+            "resourceType": "resourceType"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segResources",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c45853c7698244498ca7096c0f00edf1",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            [
+                {
+                    "resourceName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "",
+                        "type": "Label"
+                    },
+                    "resourceType": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "",
+                        "type": "Label"
+                    }
+                },
+                [
+                    {
+                        "iconEdit": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "",
+                            "type": "Label"
+                        },
+                        "resourceName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "",
+                            "type": "Label"
+                        },
+                        "resourceType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "",
+                            "type": "Label"
+                        }
+                    }
+                ]
+            ]
+        ],
+        "rowTemplateId": "ffa2d7f89a79465d8e7ba98c2ecba294",
+        "rowtemplate": "CopyflxResources0cd1c2ab8f51a4b",
+        "sectionHeaderTemplateId": "ia8ca242d73044f8ac7ed63a6592d9a1",
+        "sectionheadertemplate": "CopyflxResourcesHeader0gebb804a4fca4e",
+        "widgetdatamap": {
+            "flxResources": "flxResources",
+            "flxResourcesHeader": "flxResourcesHeader",
+            "flxSeparator": "flxSeparator",
+            "iconEdit": "iconEdit",
+            "resourceName": "resourceName",
+            "resourceType": "resourceType"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxResources",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 0,
+    "rowfocusskin": "sc9ea7eaeb894aa8b1a92b506223854b",
+    "rowskin": "s91553bbee3d42b5a738715ce76025d8",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": null,
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxResources0cd1c2ab8f51a4b": "CopyflxResources0cd1c2ab8f51a4b",
+        "CopyflxResourcesHeader0gebb804a4fca4e": "CopyflxResourcesHeader0gebb804a4fca4e",
+        "flxSeparator": "flxSeparator",
+        "iconEdit": "iconEdit",
+        "resourceName": "resourceName",
+        "resourceType": "resourceType"
+    },
+    "zindex": 1
+}

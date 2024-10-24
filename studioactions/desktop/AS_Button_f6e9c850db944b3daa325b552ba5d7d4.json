@@ -1,0 +1,30 @@
+{
+    "AS_Button_f6e9c850db944b3daa325b552ba5d7d4": {
+        "id": "AS_Button_f6e9c850db944b3daa325b552ba5d7d4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "h9c572d4449b44728cdf0d41c8a7d278"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_a46963a0195f4cac87512acaea96a751",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmHome",
+            "formKUID": "i3cda781a60d44fe804120dae97745f0",
+            "projectName": "KRADemo",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

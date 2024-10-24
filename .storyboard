@@ -1,0 +1,75 @@
+{
+    "models": {
+        "desktop": {
+            "640": {
+                "class": "GraphLinksModel",
+                "linkDataArray": [],
+                "nodeDataArray": [
+                    {
+                        "formKUID": "beadbe9d5947406c88dc11a9ec5350e2",
+                        "formName": "Form1",
+                        "isStartupForm": true,
+                        "key": "beadbe9d5947406c88dc11a9ec5350e2",
+                        "loc": "8 24.845263671875003",
+                        "thumbnailURL": null
+                    }
+                ]
+            }
+        },
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [
+                {
+                    "actionId": "NAVIGATE_TO_FORM__j66e21ad776f42258b0da15a439a0af6",
+                    "actionSequenceId": "AS_Button_f427a50b48ee4053aa75078dd1e6f791",
+                    "beautifiedPath": "frmLogin > ACMELogin > btnLogin > onClick",
+                    "evt": "ide_onClick",
+                    "from": "fdbc117c766847ba849bb2b43177d491",
+                    "isPSP": false,
+                    "points": [
+                        168,
+                        178.04526367187498,
+                        178,
+                        178.04526367187498,
+                        178,
+                        178.04526367187498,
+                        178,
+                        178.04526367187498,
+                        444,
+                        178.04526367187498,
+                        454,
+                        178.04526367187498
+                    ],
+                    "to": "i3cda781a60d44fe804120dae97745f0",
+                    "widgetKUID": "g41bbf228cd54831829d2a36246cd98e"
+                }
+            ],
+            "nodeDataArray": [
+                {
+                    "formKUID": "f25568aa10fc46b08c3c8932c301ad0b",
+                    "formName": "frmAllocation",
+                    "isStartupForm": false,
+                    "key": "f25568aa10fc46b08c3c8932c301ad0b",
+                    "loc": "454 624.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "i3cda781a60d44fe804120dae97745f0",
+                    "formName": "frmHome",
+                    "isStartupForm": false,
+                    "key": "i3cda781a60d44fe804120dae97745f0",
+                    "loc": "454 24.845263671875003",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "fdbc117c766847ba849bb2b43177d491",
+                    "formName": "frmLogin",
+                    "isStartupForm": true,
+                    "key": "fdbc117c766847ba849bb2b43177d491",
+                    "loc": "8 24.845263671875003",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    }
+}

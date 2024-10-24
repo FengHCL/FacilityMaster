@@ -1,0 +1,30 @@
+{
+    "AS_Button_f427a50b48ee4053aa75078dd1e6f791": {
+        "id": "AS_Button_f427a50b48ee4053aa75078dd1e6f791",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fdbc117c766847ba849bb2b43177d491"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__j66e21ad776f42258b0da15a439a0af6",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmHome",
+            "formKUID": "i3cda781a60d44fe804120dae97745f0",
+            "projectName": "FacilityMaster",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

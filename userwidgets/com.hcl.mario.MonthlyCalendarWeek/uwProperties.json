@@ -1,0 +1,72 @@
+{
+    "classname": "MonthlyCalendarWeek",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d81d0efeadfb4b078af1044c4315f9e1",
+                    "paramList": [],
+                    "propertyKey": "removeAll",
+                    "pw": {
+                        "displayName": "removeAll",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u1393ca6d96a41e1bcb901a926925454",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d06032a94d1c40b59befac894a20b2e4",
+                    "paramList": [
+                        {
+                            "name": "widget"
+                        }
+                    ],
+                    "propertyKey": "add",
+                    "pw": {
+                        "displayName": "add",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u1393ca6d96a41e1bcb901a926925454",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "a1e8eda32940462a96d72c53a6860686",
+                    "paramList": [],
+                    "propertyKey": "widgets",
+                    "pw": {
+                        "displayName": "widgets",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u1393ca6d96a41e1bcb901a926925454",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.mario",
+    "version": "1.0.0"
+}

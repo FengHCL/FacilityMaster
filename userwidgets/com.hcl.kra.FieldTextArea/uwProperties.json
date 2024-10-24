@@ -1,0 +1,72 @@
+{
+    "classname": "FieldTextArea",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h4b7222ef56c4e5bb9d42c45c97fc779",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "label",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "label",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblLabel",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f3b86196dd3f4c3394b5172464b08ab5"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "de7977218df6499e8d39a1b60f20049a",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "value",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "value",
+                        "isHiddenInTool": false,
+                        "srcWidget": "txaWidget",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textarea",
+                        "wType": "TextArea"
+                    },
+                    "srcWgtKUID": "a96048b091fa462f9bb154bd5579f8f7"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.kra",
+    "version": "1.0.0"
+}

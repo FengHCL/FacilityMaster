@@ -1,0 +1,23 @@
+{
+    "KRADemoObjectService_KRADemoResource": {
+        "servicename": "KRADemoObjectService",
+        "serviceid": "e7db3a99-57ac-45c1-a530-93e8806f03c1",
+        "type": "objectsvcs",
+        "objectname": "KRADemoResource",
+        "objectid": "496132"
+    },
+    "KRADemoObjectService_KRADemoResourceAllocation": {
+        "servicename": "KRADemoObjectService",
+        "serviceid": "e7db3a99-57ac-45c1-a530-93e8806f03c1",
+        "type": "objectsvcs",
+        "objectname": "KRADemoResourceAllocation",
+        "objectid": "496142"
+    },
+    "KRADemoObjectService_KRADemoResourceType": {
+        "servicename": "KRADemoObjectService",
+        "serviceid": "e7db3a99-57ac-45c1-a530-93e8806f03c1",
+        "type": "objectsvcs",
+        "objectname": "KRADemoResourceType",
+        "objectid": "496153"
+    }
+}

@@ -1,0 +1,143 @@
+{
+    "classname": "DayEventLine",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "adba829a10284a5a8fad7d1c7f8c90a0",
+                    "paramList": [],
+                    "propertyKey": "reset",
+                    "pw": {
+                        "displayName": "reset",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ue511ec1998f47b1beab9c253a4b8183",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "none",
+                    "group": "General",
+                    "kuid": "c28483c6eb494511a191c6fa57c25cfa",
+                    "originalPropertyKey": "space",
+                    "propertyIndex": 1,
+                    "propertyKey": "space",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "space",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "ue511ec1998f47b1beab9c253a4b8183",
+                    "type": "list selector",
+                    "value": [
+                        "left",
+                        "right",
+                        "center",
+                        "all",
+                        "none"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "j4852eca1a9f4cbf9aa26ffd43a3b2f6",
+                    "originalPropertyKey": "eventId",
+                    "propertyIndex": 5,
+                    "propertyKey": "eventId",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "eventId",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ue511ec1998f47b1beab9c253a4b8183",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "aeb4f7ee85e740a69facfe1a00af501c",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "skinCenter",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Normal",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxCenter",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "u22b5e1db7ca48adb12018d81a00850c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "hdf1d3b5149c4ead9626a7f4a93a8782",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "skinRight",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Normal",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxRight",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "u3846420df7141ac9bd06ec0fb29357e"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "icc4ff7a3fa74f638066f4a4c0e04908",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 4,
+                    "propertyKey": "skinLeft",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Normal",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxLeft",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "uaa7b1a2c0a143c2b16cb5cac91e86cd"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.mario",
+    "version": "1.0.0"
+}

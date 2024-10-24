@@ -1,0 +1,111 @@
+{
+    "classname": "MonthSelector",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e0616e6d82a940889bbc1f69745ed538",
+                    "paramList": [
+                        {
+                            "name": "month"
+                        },
+                        {
+                            "name": "changeYear"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onChange",
+                    "pw": {
+                        "displayName": "onChange",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u0bb05780d7b455291441099c2662ef1",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": 1,
+                    "group": "General",
+                    "kuid": "e9b35a901ba94dee819d75a7b6e9df2a",
+                    "originalPropertyKey": "month",
+                    "propertyIndex": 1,
+                    "propertyKey": "month",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "month",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "u0bb05780d7b455291441099c2662ef1",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 2023,
+                    "group": "General",
+                    "kuid": "ca389b32e5ce49af847931f0c4dd4fe4",
+                    "originalPropertyKey": "year",
+                    "propertyIndex": 10,
+                    "propertyKey": "year",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "year",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "u0bb05780d7b455291441099c2662ef1",
+                    "type": "integer",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dc7d7e68c63a4651b05d0a4fa8c83c1f",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 11,
+                    "propertyKey": "showSelectors",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "showSelectors",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxIcons",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "u4406a0edb154997b5d8cdf2c3f639e3"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.mario",
+    "version": "1.0.0"
+}

@@ -1,0 +1,47 @@
+{
+    "blue1": {
+        "color": {
+            "value": "003e75ff"
+        },
+        "colorType": {
+            "value": "one"
+        },
+        "type": "color"
+    },
+    "cyanMonaco1": {
+        "color": {
+            "value": "57bfe0ff"
+        },
+        "colorType": {
+            "value": "one"
+        },
+        "type": "color"
+    },
+    "greenMonaco1": {
+        "color": {
+            "value": "42934eff"
+        },
+        "colorType": {
+            "value": "one"
+        },
+        "type": "color"
+    },
+    "grey1": {
+        "color": {
+            "value": "ebebebff"
+        },
+        "colorType": {
+            "value": "one"
+        },
+        "type": "color"
+    },
+    "redMonaco1": {
+        "color": {
+            "value": "a62f28ff"
+        },
+        "colorType": {
+            "value": "one"
+        },
+        "type": "color"
+    }
+}

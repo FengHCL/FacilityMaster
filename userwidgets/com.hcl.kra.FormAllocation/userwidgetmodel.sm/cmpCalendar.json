@@ -1,0 +1,98 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s64931f05a3f45f0bb35a6f1415b86d0",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "350dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 0,
+    "data": {
+        "eventTypes": {
+            "data": [
+                {
+                    "eventType": "allocation",
+                    "skinAll": "skinCenterClosed",
+                    "skinPartial": "skinPartialClosed"
+                }
+            ],
+            "schema": [
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "eventType",
+                    "columnHeaderType": "text",
+                    "columnID": "eventType",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "fa8ff5e11ecc4319bd8bce593d296436"
+                },
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "skinAll",
+                    "columnHeaderType": "text",
+                    "columnID": "skinAll",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "e97c0269077b4f6b9cdd03d2438e036a"
+                },
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "skinPartial",
+                    "columnHeaderType": "text",
+                    "columnID": "skinPartial",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "h5777b978b094dfdb0ceb44583a4c458"
+                }
+            ]
+        },
+        "weekRowHeight": 40
+    },
+    "id": "cmpCalendar",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c04b6a91c3b447c784a1b9792f25730d",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxCalendar",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "u0ef363cdb06496daf9cd6b4f4db53a8",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

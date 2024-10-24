@@ -1,0 +1,213 @@
+{
+    "classname": "BiMonthlyCalendar",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a451c78c0567408ebfaa64076c716a50",
+                    "paramList": [],
+                    "propertyKey": "refresh",
+                    "pw": {
+                        "displayName": "refresh",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u0ef363cdb06496daf9cd6b4f4db53a8",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "hbb315c866f2436e9cae6fd5f6472b4a",
+                    "paramList": [],
+                    "propertyKey": "setDayEvents",
+                    "pw": {
+                        "displayName": "setDayEvents",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u0ef363cdb06496daf9cd6b4f4db53a8",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "a01f1e60dba747a1972db3671a375390",
+                    "paramList": [],
+                    "propertyKey": "resetDayEvents",
+                    "pw": {
+                        "displayName": "resetDayEvents",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u0ef363cdb06496daf9cd6b4f4db53a8",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d4e79924870b491ea306220087afdb56",
+                    "paramList": [
+                        {
+                            "name": "selectedDate"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onSelect",
+                    "pw": {
+                        "displayName": "onSelect",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u0ef363cdb06496daf9cd6b4f4db53a8",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "j7235874a68246ce94a204c065014b51",
+                    "paramList": [
+                        {
+                            "name": "month"
+                        },
+                        {
+                            "name": "year"
+                        }
+                    ],
+                    "propertyIndex": 2,
+                    "propertyKey": "onChangeMonth",
+                    "pw": {
+                        "displayName": "onChangeMonth",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u0ef363cdb06496daf9cd6b4f4db53a8",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Month",
+                "Year",
+                "Today",
+                "Skins"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "j07139133bfb49848970799d1a3315c1",
+                    "originalPropertyKey": "selectedDate",
+                    "propertyIndex": 1,
+                    "propertyKey": "selectedDate",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "selectedDate",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u0ef363cdb06496daf9cd6b4f4db53a8",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Read",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "cbc140bb453c4de1a03afbf1fbd3ce16",
+                    "originalPropertyKey": "visibleDates",
+                    "propertyIndex": 10,
+                    "propertyKey": "visibleDates",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "visibleDates",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u0ef363cdb06496daf9cd6b4f4db53a8",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": {
+                        "data": [],
+                        "schema": [
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "eventType",
+                                "columnHeaderType": "text",
+                                "columnID": "eventType",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "fa8ff5e11ecc4319bd8bce593d296436"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "skinAll",
+                                "columnHeaderType": "text",
+                                "columnID": "skinAll",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "e97c0269077b4f6b9cdd03d2438e036a"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "skinPartial",
+                                "columnHeaderType": "text",
+                                "columnID": "skinPartial",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "h5777b978b094dfdb0ceb44583a4c458"
+                            }
+                        ]
+                    },
+                    "group": "General",
+                    "kuid": "fa2107f24c9744969eedbe402725b8ab",
+                    "originalPropertyKey": "eventTypes",
+                    "propertyIndex": 11,
+                    "propertyKey": "eventTypes",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "eventTypes",
+                        "uiRepresentation": "Label-DataGrid"
+                    },
+                    "srcWgtKUID": "u0ef363cdb06496daf9cd6b4f4db53a8",
+                    "type": "data grid",
+                    "value": 3
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 60,
+                    "group": "General",
+                    "kuid": "cab1f35ed86247428d4b883f45670a31",
+                    "originalPropertyKey": "weekRowHeight",
+                    "propertyIndex": 12,
+                    "propertyKey": "weekRowHeight",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "weekRowHeight (dp)",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "u0ef363cdb06496daf9cd6b4f4db53a8",
+                    "type": "integer",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.mario",
+    "version": "1.0.0"
+}

@@ -1,0 +1,160 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s986e09c25984ca6880f0e672c244b15",
+    "_top_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {},
+    "androidwearos": {},
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "Weekdays": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "u46e9ab7508a45309968c62f8d7ef07a",
+                "srcKUID": "ue778139b00149d591d2c788957021d2",
+                "wType": "FlexContainer"
+            },
+            "responsiveData": {
+                "b2": {},
+                "b3": {}
+            }
+        },
+        "lbl1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fa853ca277cd49288eda6c5bd23b4375",
+                "srcKUID": "u3b330d96e1c4d3287f089b0195f7c26",
+                "wType": "Label"
+            }
+        },
+        "lbl2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c7d41157c3ea453593ae7a42e4e10048",
+                "srcKUID": "u5a8c3b5009341f0ada56cd6c0c8e80f",
+                "wType": "Label"
+            }
+        },
+        "lbl3": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "af521f7c3f5b44a9a8926e17e102e469",
+                "srcKUID": "ufa4b814168a4770bc2549a9f69cfdfb",
+                "wType": "Label"
+            }
+        },
+        "lbl4": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a2508018af5443c2b5e6e86067939745",
+                "srcKUID": "uf7cb641655844228d6c2286017b471b",
+                "wType": "Label"
+            }
+        },
+        "lbl5": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c83afb18aa21411680832079731bc784",
+                "srcKUID": "udb7e5da961d48b4815fae6dce4cf8f3",
+                "wType": "Label"
+            }
+        },
+        "lbl6": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j9ab134e56394497a3dfe6d819b98749",
+                "srcKUID": "ucdf136440a8461d98692558cdd9b4fa",
+                "wType": "Label"
+            }
+        },
+        "lbl7": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ee9518652f614d04895ba4cd6b4cd9a1",
+                "srcKUID": "ub786578b0cc45348c123a7c03b4f23a",
+                "wType": "Label"
+            }
+        }
+    },
+    "desktopweb": {},
+    "enablescrolling": true,
+    "id": "weekdaysBottom",
+    "info": null,
+    "ipad": {},
+    "iphone": {},
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kiosk": {},
+    "kuid": "u46e9ab7508a45309968c62f8d7ef07a",
+    "layouttype": 3,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "bottomCalendar",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b2": {},
+        "b3": {}
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "ue778139b00149d591d2c788957021d2",
+    "spa": {},
+    "spaan": {},
+    "spaandroidtablet": {},
+    "spabb": {},
+    "spaip": {},
+    "spaipad": {},
+    "spamobile": {},
+    "spatablet": {},
+    "spawindowstablet": {},
+    "spawinphone8": {},
+    "tabrcandroid": {},
+    "vizProps": {
+        "hidewidgethierarchy": false
+    },
+    "wType": "UserWidgetInstance",
+    "windows10": {},
+    "windows8": {},
+    "winphone10": {},
+    "winphone8": {},
+    "zindex": 1
+}
